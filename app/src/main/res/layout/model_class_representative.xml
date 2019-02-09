@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/propic"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/user" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/crname"
+                android:layout_weight="1"
+                android:layout_marginTop="5sp"
+                android:textSize="17sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Batch"
+                android:id="@+id/crbatch"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="session"
+                android:id="@+id/crsession"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mobile: +01711090706"
+            android:id="@+id/textView_CRmobile"
+            android:layout_weight="4"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView_callto"
+            android:layout_weight="1"
+            android:src="@drawable/call"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="2dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView_smsto"
+            android:layout_weight="1"
+            android:src="@drawable/message"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009680">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:id="@+id/textView_CrEmail"
+            android:layout_weight="4"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView_emailto"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:longClickable="true"
+            android:src="@drawable/email"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp" />
+    </LinearLayout>
+
+</LinearLayout>

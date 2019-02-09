@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Calling from CSE 8th Batch"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/tv_batchname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Signal Processing"
+            android:id="@+id/tv_classname"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_classtime"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Attend to Class"
+            android:id="@+id/button_attend_class"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="false"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#0C5011"
+            android:padding="5dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="No Class today"
+            android:id="@+id/button_no_class"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#d0021b"
+            android:textColor="#fff"
+            android:padding="5dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="May be Later"
+            android:id="@+id/button_class_later"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/button_no_class"
+            android:layout_weight="1"
+            android:background="#f4511e"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+</LinearLayout>
